@@ -22,6 +22,8 @@ class RenderWidget : public QWidget
     QSize minimumSizeHint() const override;
     QSize sizeHint() const override;
 
+	void myDrawLine(float x1, float y1, float x2, float y2);
+
   protected:
     void paintEvent(QPaintEvent *event) override;
 
